@@ -9,4 +9,4 @@
 2. To configure label and icon of the tab, add static navigationOptions to all containers
 3. The navigation.js in styles folder is used to configure (remove) header/bar (transparentHeaderStyle)
 
-![001 Tab Navigator](./images/001.png =600x900)
+![001 Tab Navigator](./images/001.png=600x900)
