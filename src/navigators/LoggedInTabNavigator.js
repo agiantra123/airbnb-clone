@@ -4,6 +4,7 @@
  */
 
 import { createBottomTabNavigator, createAppContainer } from 'react-navigation'
+
 import colors from '../styles/colors'
 import ExploreContainer from '../containers/ExploreContainer'
 import InboxContainer from '../containers/InboxContainer'

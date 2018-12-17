@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+
 import transparentHeaderStyle from '../styles/navigation'
 import LoggedInTabNavigator from '../navigators/LoggedInTabNavigator'
 

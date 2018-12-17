@@ -9,4 +9,14 @@
 2. To configure label and icon of the tab, add static navigationOptions to all containers
 3. The navigation.js in styles folder is used to configure (remove) header/bar (transparentHeaderStyle)
 
-![001 Tab Navigator](./images/001.png)
+<img src="/images/001.gif" alt="001 Tab Navigator" title="001 Tab Navigator" width="324" height="576" />
+
+# Turn On Notification Screens (https://youtu.be/VSZmzpVnTrs)
+
+## Libraries:
+
+## Tips:
+1. The navigation.js in styles folder is used to configure (remove) header/bar (transparentHeaderStyle)
+2. The underlayColor prop of TouchableHighlight will appear if there is onPress prop
+
+<img src="/images/002.gif" alt="002 Turn On Notifications Screen" title="002 Turn On Notifications Screen" width="324" height="576" />
