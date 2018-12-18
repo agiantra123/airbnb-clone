@@ -6,7 +6,7 @@ import TurnOnNotifications from './src/screens/TurnOnNotifications'
 export default class App extends Component {
   render() {
     return (
-      <TurnOnNotifications />
+      <LoggedIn />
     );
   }
 }

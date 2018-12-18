@@ -32,7 +32,7 @@ export default class TurnOnNotifications extends Component {
                     <TouchableHighlight style={styles.notifyButton} onPress={() => {}} underlayColor={colors.green02}>
                         <Text style={styles.buttonText}>Yes, notify me</Text>
                     </TouchableHighlight>
-                    <TouchableHighlight style={styles.skipButton} onPress={() => {}} underlayColor={colors.gray}>
+                    <TouchableHighlight style={styles.skipButton} onPress={() => {}} underlayColor={colors.gray01}>
                         <Text style={[styles.buttonText, { color: colors.green01 }]}>Skip</Text>
                     </TouchableHighlight>
                 </View>
