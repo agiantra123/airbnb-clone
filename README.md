@@ -135,6 +135,5 @@ renderListing() {
   <tr>
     <td><img src="/images/005a.png" alt="005a Star Rating & Favorite Component" title="005a Star Rating & Favorite Component" width="324" height="576" /></td>
     <td><img src="/images/005b.png" alt="005b Star Rating & Favorite Component" title="005b Star Rating & Favorite Component" width="324" height="576" /></td>
-    <td><img src="/images/005c.png" alt="005c Star Rating & Favorite Component" title="005c Star Rating & Favorite Component" width="324" height="576" /></td>
   </tr>
 </table>
