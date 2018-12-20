@@ -11,7 +11,11 @@
 2. To configure label and icon of the tab, add static navigationOptions to all containers
 3. The navigation.js in styles folder is used to configure (remove) header/bar (transparentHeaderStyle)
 
-<img src="/images/001.gif" alt="001 Tab Navigator" title="001 Tab Navigator" width="324" height="576" />
+<table>
+  <tr>
+    <td><img src="/images/001.gif" alt="001 Tab Navigator" title="001 Tab Navigator" width="324" height="576" /></td>
+  </tr>
+</table>
 
 ## Turn On Notification Screens (https://youtu.be/VSZmzpVnTrs)
 
@@ -21,7 +25,11 @@
 1. The navigation.js in styles folder is used to configure (remove) header/bar (transparentHeaderStyle)
 2. The underlayColor prop of TouchableHighlight will appear if there is onPress prop
 
-<img src="/images/002.gif" alt="002 Turn On Notifications Screen" title="002 Turn On Notifications Screen" width="324" height="576" />
+<table>
+  <tr>
+    <td><img src="/images/002.gif" alt="002 Turn On Notifications Screen" title="002 Turn On Notifications Screen" width="324" height="576" /></td>
+  </tr>
+</table>
 
 ## Explore Container/Tab 1 (https://youtu.be/bMVYVk_UhI8)
 
@@ -74,7 +82,11 @@ render() {
 }
 ```
 
-<img src="/images/003.gif" alt="003 Explore Tab 1" title="003 Explore Tab 1" width="324" height="576" />
+<table>
+  <tr>
+    <td><img src="/images/003.gif" alt="003 Explore Tab 1" title="003 Explore Tab 1" width="324" height="576" /></td>
+  </tr>
+</table>
 
 ## Explore Container/Tab 2 (https://youtu.be/qJgPT_kJzog)
 
@@ -103,7 +115,11 @@ renderListing() {
 ```
 2. The contentContainerStyle prop is used to give style to the scrollview contents
 
-<img src="/images/004.gif" alt="004 Explore Tab 2" title="004 Explore Tab 2" width="324" height="576" />
+<table>
+  <tr>
+    <td><img src="/images/004.gif" alt="004 Explore Tab 2" title="004 Explore Tab 2" width="324" height="576" /></td>
+  </tr>
+</table>
 
 ## Star Rating & Favorite Component (https://youtu.be/IVRQEbG5ZTk)
 
