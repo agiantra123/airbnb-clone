@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import { TouchableHighlight, Image, StyleSheet, ScrollView } from 'react-native'
 
 export default class Categories extends Component {
-    categoriesList() {
+    // To render list in scrollview horizontally
+    renderCategories() {
         const { categories } = this.props
         return categories.map((category, index) => {
             return (
@@ -22,7 +23,7 @@ export default class Categories extends Component {
                 contentContainerStyle={styles.wrapper} // style for all items of content
                 showsHorizontalScrollIndicator={false}
             >
-                {this.categoriesList()}
+                {this.renderCategories()}
             </ScrollView>
         )
     }

@@ -25,12 +25,13 @@ export default class SearchBar extends Component {
 const styles = StyleSheet.create({
     wrapper: {
       width: '100%',
-      height: 80,
-      backgroundColor: 'rgba(255,255,255,0.9)',
+      height: 70,
+      backgroundColor: 'rgba(255,255,255,0.7)',
       position: 'absolute',
       top: 0,
       right: 0,
       left: 0,
+      zIndex: 99, // make searchbar always on the top, even when scrolling up
     },
     searchContainer: {
       height: 42,

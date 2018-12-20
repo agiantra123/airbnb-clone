@@ -10,6 +10,8 @@ import colors from '../styles/colors'
 import categoriesList from '../data/Categories'
 import SearchBar from '../components/SearchBar'
 import Categories from '../components/explore/Categories'
+import Listings from '../components/explore/Listings'
+import listings from '../data/Listings'
 
 export default class ExploreContainer extends Component {
 
@@ -24,7 +26,22 @@ export default class ExploreContainer extends Component {
       />
     )
   }
-
+  // To render listing (Experiences, Homes, etc) using array mapping in scrollview vertically
+  renderListings() {
+    return listings.map((listing, index) => {
+      return (
+        <View key={`listing-${index}`}>
+          <Listings 
+            key={`listing-item-${index}`}
+            title={listing.title}
+            boldTitle={listing.boldTitle}
+            listings={listing.listings}
+            showAddToFav={listing.showAddToFav}
+          />
+        </View>
+      )
+    })
+  }
   render() {
     return (
       <View style={styles.wrapper}>
@@ -38,6 +55,7 @@ export default class ExploreContainer extends Component {
           <View style={styles.categories}>
             <Categories categories={categoriesList} />
           </View>
+          {this.renderListings()}
         </ScrollView>
       </View>
     )
@@ -64,5 +82,6 @@ const styles = StyleSheet.create({
   },
   categories: {
     marginTop: 0,
+    marginBottom: 40,
   }
 })

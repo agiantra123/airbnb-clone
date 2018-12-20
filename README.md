@@ -73,3 +73,32 @@ render() {
 ```
 
 <img src="/images/003.gif" alt="003 Explore Tab 1" title="003 Explore Tab 1" width="324" height="576" />
+
+## Explore Container/Tab 2 (https://youtu.be/qJgPT_kJzog)
+
+### Libraries:
+
+### Tips:
+1. To render multiple items containing data array, you can use a function with array mapping. See the code below
+```jsx
+renderListing() {
+    const { listings } = this.props
+    return listings.map((listing, index) => {
+        return (
+            <TouchableHighlight style={styles.card} key={`listing-${index}`}>
+            <View style={styles.cardContent}>
+                <Image 
+                style={styles.image}
+                source={listing.photo}
+                resizeMode='contain'
+                />
+                <Text style={styles.titleContent}>{listing.title}</Text>
+            </View>
+            </TouchableHighlight>
+        )
+    })
+}
+```
+2. The contentContainerStyle prop is used to give style to the scrollview contents
+
+<img src="/images/004.gif" alt="004 Explore Tab 2" title="004 Explore Tab 2" width="324" height="576" />
