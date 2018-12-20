@@ -1,3 +1,5 @@
+:exclamation: these gif(s) and dummy data make size of repository bigger. I'm sorry.
+
 ## Logged In Bottom Tab Navigator (https://youtu.be/ke1whnT5Cv8)
 
 ### Libraries:
