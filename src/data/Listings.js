@@ -2,7 +2,7 @@
  * @Author: agiantra123 
  * @Date: 2018-12-19 22:27:13 
  * @Last Modified by: agiantra123
- * @Last Modified time: 2018-12-19 23:33:49
+ * @Last Modified time: 2018-12-21 00:34:32
  */
 
 import colors from '../styles/colors'
@@ -107,7 +107,7 @@ const listings = [
         id: 7,
         photo: listing7Photo,
         type: 'ENTIRE HOUSE - 1 BED',
-        title: 'BALIAN TREEHOUSE with beautiful pool',
+        title: 'Balian Treehouse with Beautiful Pool',
         location: 'Bali, Indonesia',
         price: 72,
         priceType: 'per night',

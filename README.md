@@ -104,3 +104,21 @@ renderListing() {
 2. The contentContainerStyle prop is used to give style to the scrollview contents
 
 <img src="/images/004.gif" alt="004 Explore Tab 2" title="004 Explore Tab 2" width="324" height="576" />
+
+## Star Rating & Favorite Component (https://youtu.be/IVRQEbG5ZTk)
+
+### Libraries:
+
+### Tips:
+1. To create icon or image or text on an image, we can style it with absolute position
+2. To make an filled icon with different-color border, please create two icons in a view. One of them has absolute position
+3. GOOD CONCEPT: returning an array of component will create those components as many as array length
+4. Three common <Text> styles: fontSize, fontWeight, and color
+
+<table>
+  <tr>
+    <td><img src="/images/005a.png" alt="005a Star Rating & Favorite Component" title="005a Star Rating & Favorite Component" width="324" height="576" /></td>
+    <td><img src="/images/005b.png" alt="005b Star Rating & Favorite Component" title="005b Star Rating & Favorite Component" width="324" height="576" /></td>
+    <td><img src="/images/005c.png" alt="005c Star Rating & Favorite Component" title="005c Star Rating & Favorite Component" width="324" height="576" /></td>
+  </tr>
+</table>
