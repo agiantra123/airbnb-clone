@@ -145,7 +145,7 @@ renderListing() {
 ### Tips:
 1. A good idea to wrap views with ScrollView insead of View
 
-### Minutes about Redux or Navigation
+### Minutes about Redux or Navigation:
 
 <table>
   <tr>
@@ -161,7 +161,7 @@ renderListing() {
 ### Tips:
 1. Colors choosing makes design more attractive
 
-### Minutes about Redux or Navigation
+### Minutes about Redux or Navigation:
 - 2:00-5:20 (Add createStackNavigator)
 - 10:50-12-40 (Add handleAddToFav function to move to other screen)
 - 13:00-13:30 & 15:40-15:50 (Remove header/app bar of Explore Tab)
