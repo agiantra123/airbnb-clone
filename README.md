@@ -145,9 +145,31 @@ renderListing() {
 ### Tips:
 1. A good idea to wrap views with ScrollView insead of View
 
+### Minutes about Redux or Navigation
+
 <table>
   <tr>
     <td><img src="/images/006a.png" alt="006a No Saved Listings" title="006a No Saved Listings" width="324" height="576" /></td>
     <td><img src="/images/006b.gif" alt="006b No Saved Listings" title="006b No Saved Listings" width="324" height="576" /></td>
+  </tr>
+</table>
+
+## Create a List 1 (https://youtu.be/qJFKhhKeogY)
+
+### Libraries:
+
+### Tips:
+1. Colors choosing makes design more attractive
+
+### Minutes about Redux or Navigation
+- 2:00-5:20 (Add createStackNavigator)
+- 10:50-12-40 (Add handleAddToFav function to move to other screen)
+- 13:00-13:30 & 15:40-15:50 (Remove header/app bar of Explore Tab)
+- 16:30-17:45 (Remove tab bar of CreateList)
+- 17:50-23:40 (Style header and back/close button)
+
+<table>
+  <tr>
+    <td><img src="/images/007.png" alt="007 Create a List 1" title="007 Create a List 1" width="324" height="576" /></td>
   </tr>
 </table>

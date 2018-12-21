@@ -17,6 +17,7 @@ export default class ExploreContainer extends Component {
 
   // To configure label and icon of the tab of Tab Navigator
   static navigationOptions = {
+    header: null, // To remove header/app bar
     tabBarLabel: 'EXPLORE',
     tabBarIcon: ({ tintColor }) => (
       <Icon
