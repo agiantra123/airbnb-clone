@@ -3,8 +3,11 @@
  */
 
 import React, { Component } from 'react'
-import { Text, View, Platform } from 'react-native'
+import { Text, View, Platform, ScrollView, StyleSheet } from 'react-native'
 import Icon from 'react-native-vector-icons/Ionicons'
+
+import colors from '../styles/colors'
+import NoResults from '../components/saved/NoResult'
 
 export default class SavedContainer extends Component {
 
@@ -22,9 +25,16 @@ export default class SavedContainer extends Component {
 
   render() {
     return (
-      <View>
-        <Text> SavedContainer </Text>
+      <View style={styles.wrapper}>
+        <NoResults />
       </View>
     )
   }
 }
+
+const styles = StyleSheet.create({
+  wrapper: {
+    flex: 1,
+    backgroundColor: colors.white,
+  },
+})

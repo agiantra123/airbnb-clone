@@ -137,3 +137,17 @@ renderListing() {
     <td><img src="/images/005b.png" alt="005b Star Rating & Favorite Component" title="005b Star Rating & Favorite Component" width="324" height="576" /></td>
   </tr>
 </table>
+
+## No Saved Listings (https://youtu.be/_hi6qp9sJQY)
+
+### Libraries:
+
+### Tips:
+1. A good idea to wrap views with ScrollView insead of View
+
+<table>
+  <tr>
+    <td><img src="/images/006a.png" alt="006a No Saved Listings" title="006a No Saved Listings" width="324" height="576" /></td>
+    <td><img src="/images/006b.gif" alt="006b No Saved Listings" title="006b No Saved Listings" width="324" height="576" /></td>
+  </tr>
+</table>
