@@ -173,3 +173,33 @@ renderListing() {
     <td><img src="/images/007.png" alt="007 Create a List 1" title="007 Create a List 1" width="324" height="576" /></td>
   </tr>
 </table>
+
+:exclamation: Sorry, I have to go back first to create logged out screen, login screen, forgot password, etc, then I will continue to create 'Create a List 2'
+
+## Home Screen (https://youtu.be/78Mr7gN6mE4)
+
+### Libraries:
+
+### Tips:
+1. After getting props of a component, we can set default value if the props is not initialized
+```jsx
+const { 
+    colorp, // color of text
+    backgroundColorp, // color of background
+} = this.props
+// To set default value
+const color = colorp || colors.black
+const backgroundColor = backgroundColorp || colors.white
+```
+2. Props can be a component
+```jsx
+icon={<Icon name='facebook' size={20} style={styles.facebookButton} />}
+```
+3. To make a text has different style, we can have multiple text components inside that text component
+4. We can change the wrapper View to ScrollView to make it appropriate for landscape orientation
+
+<table>
+  <tr>
+    <td><img src="/images/008.png" alt="008 Home Screen" title="008 Home Screen" width="324" height="576" /></td>
+  </tr>
+</table>
